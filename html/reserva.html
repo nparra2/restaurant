@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reserva de Taula</title>
+    <link rel="stylesheet" href="file:///C:Users/Nil%20Parra/Documents/Web%20Restaurant/css/styles.css">
+    <link rel="icon" type="image/svg+xml" href="file:///Users/Nil%20Parra/Documents/Web%20Restaurant/images/favicon.svg">
+    <link rel="icon" type="image/png" href="file:///C:Users/Nil%20Parra/Documents/Web%20Restaurant/images/favicon.png">
+</head>
+<body>
+    <header>
+        <h1>Reserva de Taula</h1>
+        <nav>
+            <a href="file:///C:Users/Nil%20Parra/Documents/Web%20Restaurant/index.html">Inici</a>
+            <a href="file:///C:Users/Nil%20Parra/Documents/Web%20Restaurant/html/menu.html">Menú</a>
+            <a href="file:///C:Users/Nil%20Parra/Documents/Web%20Restaurant/html/contacte.html">Contacte</a>
+            <a href="file:///C:Users/Nil%20Parra/Documents/Web%20Restaurant/html/reserva.html">Formulari de Reserva</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="reservation">
+            <h2>Reserva de Taula</h2>
+            <form action="#" method="post">
+                <label for="name">Nom:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="date">Data de Reserva:</label>
+                <input type="date" id="date" name="date" required>
+
+                <label for="time">Hora de Reserva:</label>
+                <input type="time" id="time" name="time" required>
+
+                <label for="menu-type">Tipus de Menú:</label>
+                <select id="menu-type" name="menu-type" required>
+                    <option value="">Selecciona el tipus de menú</option>
+                    <option value="menu1">Menú Degustació</option>
+                    <option value="menu3">Carta a la Carta</option>
+                </select>
+
+                <input type="submit" value="Reservar">
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>Drets Reservats &copy; 2024 Nil Parra</p>
+    </footer>
+</body>
+</html>
